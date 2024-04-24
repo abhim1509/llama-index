@@ -1,0 +1,16 @@
+{
+  "name": "llama-index2.0",
+  "version": "1.0.0",
+  "description": "Llama out of context solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "llamaindex": "^0.1.8"
+  }
+}

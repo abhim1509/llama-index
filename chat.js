@@ -16,8 +16,7 @@ const documents = await new SimpleDirectoryReader().loadData({
 
 //* High level API: split documents, get keywords, and build index.
 const index = await VectorStoreIndex.fromDocuments(
-  documents,
-  (show_progress = true)
+  documents
 );
 
 let customServiceContext = new llamaIndex.serviceContextFromDefaults({

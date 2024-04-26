@@ -1,5 +1,5 @@
 # llama-index
-Basics of llama-index with custom QA prompt to remove out-of-context queries.
+Basics of llama-index with custom QA prompt addressing out-of-context queries.
 
 To run project:
 1. Download the project in local directory
